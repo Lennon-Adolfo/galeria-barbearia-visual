@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #b48a4d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(#000000cc, #000000cc), url('../img/hero.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    border: 1px solid #b48a4d;
+    padding: 12px 20px;
+    color: #b48a4d;
+    text-decoration: none;
+}
+
+.btn-outline {
+    border: 1px solid #b48a4d;
+    padding: 12px 20px;
+    color: #b48a4d;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 30px;
+}
+
+.agenda form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.agenda input, .agenda select, .agenda button {
+    padding: 10px;
+}
+
+.agenda button {
+    background: #b48a4d;
+    border: none;
+}
+
+.galeria .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 10px
+    justify-content: center;
+}
+
+.foto {
+    height: 200px;
+    background: #333;
+}
+
+.contato-botoes a {
+    display: inline-block;
+    margin: 10px;
+    color: #b48a4d;
+    text-decoration: none;
+}
+
+.localização a {
+    display: inline-block;
+    margin: 10px;
+    color: #b48a4d;
+    text-decoration: none;
+}
+
+footer {
+    background: #000;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.corte {
+    margin-left: 1px;
+    gap: 20px;
+}
+
+.corte img {
+    display: inline;
+    width: 40%;
+    border-radius: 10%;
+}
+
+.barba img {
+    display: inline;
+    width: 40%;
+    border-radius: 10%;
+}
+
+.cortebarba img {
+    display: inline;
+    width: 40%;
+    border-radius: 10%;
+}
+
+.sobrancelha img {
+    display: inline;
+    width: 40%;
+    border-radius: 10%;
+}

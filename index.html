@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Urban Cut Barber</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Urban Cut Barber</div>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#agenda">Agendamento</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <h1>Seu estilo começa aqui</h1>
+    <p>Cortes modernos com a essência clássica</p>
+    <div class="hero-buttons">
+        <a href="#agenda" class="btn">Agendar Horário</a>
+        <a href="https://wa.me/5599999999999" target="_blank" class="btn-outline">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+</section>
+
+<section id="servicos" class="servicos">
+    <h2>Serviços</h2>
+    <div class="cards">
+        <div class="card">Corte Masculino</div>
+        <div class="card">Barba</div>
+        <div class="card">Corte + Barba</div>
+        <div class="card">Sobrancelha</div>
+    </div>
+</section>
+
+<section id="agenda" class="agenda">
+    <h2>Agendamento (Demonstração)</h2>
+
+    <form id="form-agendamento">
+        <input type="text" placeholder="Seu nome" required>
+        <select required>
+            <option value="">Selecione o serviço</option>
+            <option>Corte Masculino</option>
+            <option>Barba</option>
+            <option>Corte + Barba</option>
+        </select>
+        <input type="date" required>
+        <input type="time" required>
+        <button type="submit">Solicitar Agendamento</button>
+    </form>
+
+    <p class="demo-info">
+        * Sistema demonstrativo para apresentação comercial
+    </p>
+</section>
+
+<section id="galeria" class="galeria">
+    <h2>Nossos Trabalhos</h2>
+    <div class="grid">
+        <div class="corte">
+            <h2>Corte Masculino</h2>
+            <img src="/img/gallery/corte1.png" alt="Corte Masculino1">
+            <img src="/img/gallery/corte2.png" alt="Corte Masculino2">
+            <img src="/img/gallery/corte3.png" alt="Corte Masculino3">
+        </div>
+        <div class="barba">
+            <h2>Barba</h2>
+            <img src="/img/gallery/barba1.png" alt="Barba1">
+            <img src="/img/gallery/barba2.png" alt="Barba2">
+            <img src="/img/gallery/barba3.png" alt="Barba3">
+        </div>
+        <div class="cortebarba">
+            <h2>Corte+Barba</h2>
+            <img src="/img/gallery/cortebarba1.png" alt="corteEbarba1">
+            <img src="/img/gallery/cortebarba2.png" alt="corteEbarba2">
+            <img src="/img/gallery/cortebarba3.png" alt="corteEbarba3">
+        </div>
+        <div class="sobrancelha">
+            <h2>Sobrancelha</h2>
+            <img src="/img/gallery/sobrancelha1.png" alt="sobrancelha1">
+            <img src="/img/gallery/sobrancelha2.png" alt="sobrancelha2">
+            <img src="/img/gallery/sobrancelha3.png" alt="sobrancelha3">
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="contato">
+    <h2>Contato</h2>
+
+    <div class="contato-botoes">
+        <a href="https://wa.me/5599999999999" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+    </div>
+
+    <div class="localização">
+        <a href="https://www.google.com/maps/place/Rio+Grande+-+RS/@-32.2056053,-53.037687,9z/data=!3m1!4b1!4m6!3m5!1s0x95119c6ccee3f81d:0x93d00d2f95cfc21d!8m2!3d-32.0407893!4d-52.1016953!16zL20vMGgzNWhx?authuser=0&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Rio Grande - RS</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Urban Cut Barber • Projeto demonstrativo</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
