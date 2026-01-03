@@ -38,7 +38,7 @@ Este projeto faz parte do meu **portfólio de desenvolvedor front-end**, sendo u
 ### ✂️ Serviços & 📅 Agendamento
 ![Serviços & Agendamento](img/prints/servicos.png)
 
-###🖼️ Galeria de Trabalhos (Demonstração)
+### 🖼️ Galeria de Trabalhos (Demonstração)
 ![Galeria de Trabalhos](img/prints/trabalhos.png)
 
 ### 📞 Contato
@@ -68,5 +68,6 @@ Este projeto faz parte do meu **portfólio de desenvolvedor front-end**, sendo u
 ## 📄 Licença
 
 Projeto de uso livre para fins educacionais e demonstrativos.
+
 
 
